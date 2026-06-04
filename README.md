@@ -107,12 +107,3 @@ flowchart LR
 | `export_pdf` | Экспорт отчёта в PDF |
 | `add_transaction` | Добавление транзакции |
 
-## Модель Transaction
-
-```
-Transaction
-├── tx_date   — дата
-├── category  — категория
-├── amount    — сумма
-└── kind      — тип (доход / расход)
-```
